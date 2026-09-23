@@ -10,17 +10,17 @@ int main()
 {
 	double x; // вхідний параметр
 	double z1; // результат обчислення 1-го виразу
-	//double z2; // результат обчислення 2-го виразу
+	double z2; // результат обчислення 2-го виразу
 
 	cout << "x = "; cin >> x;
 	
 	z1 = ((sin(x) + sin(5*x) - sin(3*x)) / (cos(x) - cos(3*x) + cos(5*x)));
-	//z2 = tan(3*x);
+	z2 = tan(3*x);
 	
 	cout << endl;
 	cout << "z1 = " << z1 << endl;
-	//cout << "z2 = " << z2 << endl;
-	
+	cout << "z2 = " << z2 << endl;
+	//comment
 	cin.get();
 	return 0;
 }
