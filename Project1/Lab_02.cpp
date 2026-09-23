@@ -4,7 +4,7 @@
 // Лінійні програми.
 // Варіант 4
 #include <iostream>
-//comment
+
 using namespace std;
 int main()
 {
@@ -13,7 +13,7 @@ int main()
 	double z2; // результат обчислення 2-го виразу
 
 	cout << "x = "; cin >> x;
-	
+	//comment
 	z1 = ((sin(x) + sin(5*x) - sin(3*x)) / (cos(x) - cos(3*x) + cos(5*x)));
 	z2 = tan(3*x);
 	
